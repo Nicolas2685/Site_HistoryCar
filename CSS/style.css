@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-color: gray;
+}
+img{
+    width: 48vw;
+    padding-right: 20px;
+    padding-left: 20px; 
+}
+header{
+    text-align: center;
+    display: block;
+}
+.logotexto{
+    font-size: 38px;
+    padding: 50px;
+    text-align: center;
+}
+.linha-vertical {
+    width: 100%;
+    height: 5px; 
+    background-color: black;
+}
+.menu li{
+    font-size: 30px;
+    display: inline-block;
+    padding-bottom: 50px;
+    margin-right: 40px;
+    padding-top: 80px;
+}
+.carburado{
+    margin: 60px;
+    font-size: 38px;
+    text-align: center;
+}
+.containerimag{
+    margin-right: 20px;
+    padding-top: 10vh;
+    text-align: justify;
+    font-size: 32px;
+    display: flex;
+}
+.containerimage{
+    padding-top: 10vh;
+    text-align: justify;
+    margin: 20px;
+    font-size: 32px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.containerimagem{
+    padding-top: 10vh;
+    padding-bottom: 100px;
+    text-align: justify;
+    font-size: 32px;
+    display: flex;
+}
+
+.final{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 980px) {
+
+img {
+    width: 68vw;
+}
+    
+header {
+    text-align: center;
+    display: block;
+}
+    
+.logotexto {
+    font-size: 28px; 
+    padding: 20px; 
+    text-align: center;
+}
+    
+.linha-vertical {
+    width: 100%;
+    height: 5px;
+    background-color: black;
+}
+    
+.menu li {
+    font-size: 18px; 
+    display: inline-block;
+    margin-right: 20px; 
+    padding: 10px; 
+}
+    
+.carburado {
+    margin: 20px;
+    font-size: 28px; 
+}
+    
+.containerimag,
+.containerimage,
+.containerimagem {
+    padding: 20px; 
+    text-align: justify;
+    font-size: 24px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+    
+.final {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    padding: 20px; 
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+.logotexto {
+    font-size: 24px;
+    padding: 15px;
+}
+    
+.menu li {
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 8px;
+}
+    
+.carburado {
+    font-size: 24px;
+    margin: 10px;
+}
+    
+.containerimag,
+.containerimage,
+.containerimagem {
+    font-size: 20px;
+}
+    
+.final {
+    padding: 10px;
+}
+}
